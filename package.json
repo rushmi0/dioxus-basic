@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "web": "dx serve --hot-reload",
+    "build": "dx build --release"
+  },
+  "dependencies": {
+    "daisyui": "^4.12.10"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
