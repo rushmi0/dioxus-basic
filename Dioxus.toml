@@ -1,7 +1,7 @@
 [application]
 
 # App (Project) Name
-name = "rust-webassembly"
+name = "dioxus-basic"
 
 # Dioxus App Default Platform
 # web, desktop, fullstack
@@ -16,7 +16,7 @@ asset_dir = "public"
 [web.app]
 
 # HTML title tag content
-title = "rust-webassembly"
+title = "dioxus-basic"
 
 [web.watcher]
 
@@ -34,7 +34,10 @@ style = ["/tailwind.css"]
 
 
 # Javascript code file
-script = []
+# "https://cdn.tailwindcss.com/3.4.5"
+script = [
+
+]
 
 [web.resource.dev]
 
