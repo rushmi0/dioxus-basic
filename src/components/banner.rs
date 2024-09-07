@@ -2,6 +2,8 @@
 
 use dioxus::prelude::*;
 
+const IMG_BANNER: &str = manganis::mg!(file("src/assets/multiplatform-dark.svg"));
+
 #[component]
 pub fn Banner() -> Element {
     rsx! {
@@ -18,6 +20,14 @@ pub fn Banner() -> Element {
                         "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de"
                     }
 
+                }
+
+                div { class: "md:col-span-2 md:row-span-4 lg:row-span-2 row-span-4 order-first lg:order-last",
+                    div { class: "lg:relative lg:w-[671px] lg:h-[671px]",
+                        img { class: "inset-0 object-cover",
+                            src: "{IMG_BANNER}"
+                        }
+                    }
                 }
 
             }
