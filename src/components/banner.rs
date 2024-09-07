@@ -13,11 +13,14 @@ pub fn Banner() -> Element {
 
                 div { class: "lg:p-[50px] text-center lg:text-start leading-none md:col-span-2 lg:row-span-2",
 
-                    h1 { class: "lg:text-[96px] font-bold text-[#935CD1] text-[48px] sm:text-[48px]", "Dioxus v0.5" }
+                    h1 { class: "text-[48px] sm:text-[48px] lg:text-[96px] font-bold",
+                        span { class: "text-[#00A8D6]", "Dioxus" }
+                        span { class: "text-[#E96020] ml-2", " v0.5" }
+                    }
                     h2 { class: "lg:text-[96px] font-bold text-[48px] sm:text-[48px]", "Webassembly" }
 
                     p { class: "mt-10 lg:text-[24px] text-[21px] sm:text-[21px] text-balance leading-normal",
-                        "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de"
+                        "Dioxus is a Rust library for building apps that run on desktop, web, mobile, and more."
                     }
 
                 }
