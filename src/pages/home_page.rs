@@ -2,11 +2,12 @@
 
 use dioxus::prelude::*;
 
-use crate::components::Banner;
+use crate::components::{Banner, SlideShow};
 
 #[component]
 pub fn HomePage() -> Element {
     rsx! {
         Banner {}
+        SlideShow {}
     }
 }
