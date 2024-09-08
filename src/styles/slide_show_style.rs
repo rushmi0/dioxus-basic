@@ -3,10 +3,13 @@ pub const ANIM: &str = r#"
   @apply hover:scale-[1.05]
 }
 
+main {
+  width: min(1200px, 90vw);
+  margin: auto;
+}
 
 .slider {
   width: 100%;
-  height: 80px;
   mask-image: linear-gradient(
       to right,
       transparent,
@@ -17,12 +20,14 @@ pub const ANIM: &str = r#"
 
 .slider .list {
   display: flex;
+  height: 100px;
   width: 100%;
   min-width: calc(var(--width) * var(--quantity));
   position: relative;
 }
 
 .slider .list .item {
+  margin: 20px;
   width: var(--width);
   height: var(--height);
   position: absolute;
@@ -231,6 +236,8 @@ pub const ANIM: &str = r#"
   border-color: #E96020;
   -webkit-box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
   box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
+  @apply mt-20;
+  transform: scale(1.05);
 }
 
 "#;
