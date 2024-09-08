@@ -10,7 +10,6 @@ main{
 .slider{
   width: 100%;
   height: var(--height);
-  overflow: hidden;
   mask-image: linear-gradient(
       to right,
       transparent,
@@ -202,34 +201,29 @@ main{
 }
 
 
-#links {
-    width: 400px;
-    text-align: left;
-    font-size: x-large;
+/****************************************************/
 
-    @apply text-slate-900;
-
-    display: flex;
-    flex-direction: column;
+.card {
+  @apply text-[#2D323B];
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  border: 3px solid #c3c6ce;
+  transition: 0.5s ease-out;
 }
 
-#links a {
-    @apply text-slate-900;
-    text-decoration: none;
-    margin-top: 20px;
-    margin: 10px;
-    border: white 1px solid;
-    border-radius: 5px;
-    padding: 10px;
+.card a {
+  margin-top: 20px;
+  margin: 10px;
+  text-align: left;
+  font-size: x-large;
 }
 
-#links a:hover {
-    background-color: #1f1f1f;
-    cursor: pointer;
-}
-
-#header {
-    max-width: 1200px;
+.card:hover {
+  border-color: #E96020;
+  -webkit-box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
+  box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
 }
 
 "#;

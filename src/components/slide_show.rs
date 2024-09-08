@@ -16,10 +16,10 @@ pub fn SlideShow() -> Element {
 
                 div { class: "list",
 
-                    div { class: "item",
+                    div { class: "item hover:-translate-y-2 card",
                         style: "--position: 1",
                         div { class: "bg-slideshow",
-                            div { id: "links", class: "flex justify-center items-center",
+                            div {  class: "flex justify-center items-center",
                                 a {
                                     target: "_blank",
                                     href: "https://dioxuslabs.com/learn/0.5/",
@@ -29,10 +29,10 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item",
+                    div { class: "item hover:-translate-y-2 card",
                         style: "--position: 2",
                         div { class: "bg-slideshow",
-                            div { id: "links", class: "flex justify-center items-center",
+                            div {  class: "flex justify-center items-center",
                                 a {
                                     target: "_blank",
                                     href: "https://dioxuslabs.com/awesome",
@@ -42,10 +42,10 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item",
+                    div { class: "item hover:-translate-y-2 card",
                         style: "--position: 3",
                         div { class: "bg-slideshow",
-                            div { id: "links", class: "flex justify-center items-center",
+                            div {  class: "flex justify-center items-center",
                                 a {
                                     target: "_blank",
                                     href: "https://github.com/dioxus-community/",
@@ -55,10 +55,10 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item",
+                    div { class: "item hover:-translate-y-2 card",
                         style: "--position: 4",
                         div { class: "bg-slideshow",
-                            div { id: "links", class: "flex justify-center items-center",
+                            div {  class: "flex justify-center items-center",
                                 a {
                                     target: "_blank",
                                     href: "https://github.com/DioxusLabs/dioxus-std",
@@ -68,10 +68,10 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item",
+                    div { class: "item hover:-translate-y-2 card",
                         style: "--position: 5",
                         div { class: "bg-slideshow",
-                            div { id: "links", class: "flex justify-center items-center",
+                            div {  class: "flex justify-center items-center",
                                 a {
                                     target: "_blank",
                                     href: "https://marketplace.visualstudio.com/items?itemName=DioxusLabs.dioxus",
@@ -81,10 +81,10 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item",
+                    div { class: "item hover:-translate-y-2 card",
                         style: "--position: 6",
                         div { class: "bg-slideshow",
-                            div { id: "links", class: "flex justify-center items-center",
+                            div {  class: "flex justify-center items-center",
                                 a {
                                     target: "_blank",
                                     href: "https://discord.gg/XgGxMSkvUM",
