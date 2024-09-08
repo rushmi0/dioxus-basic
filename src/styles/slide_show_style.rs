@@ -3,13 +3,14 @@ pub const ANIM: &str = r#"
   @apply hover:scale-[1.05]
 }
 
-main{
+main {
   width: min(1200px, 90vw);
   margin: auto;
 }
-.slider{
+
+.slider {
   width: 100%;
-  height: var(--height);
+  height: 90px;
   mask-image: linear-gradient(
       to right,
       transparent,
@@ -17,45 +18,59 @@ main{
       transparent
   );
 }
-.slider .list{
+
+.slider .list {
   display: flex;
   width: 100%;
   min-width: calc(var(--width) * var(--quantity));
   position: relative;
 }
-.slider .list .item{
+
+.slider .list .item {
   width: var(--width);
   height: var(--height);
   position: absolute;
   left: 100%;
-  animation: autoRun 28s linear infinite;
+  animation: autoRun 18s linear infinite;
   transition: filter 0.5s;
-  animation-delay: calc( (28s / var(--quantity)) * (var(--position) - 1) - 10s)!important;
+  animation-delay: calc( (18s / var(--quantity)) * (var(--position) - 1) - 10s)!important;
 }
-.slider .list .item img{
+
+.slider .list .item img {
   width: 100%;
 }
+
+.list {
+    @apply mt-3
+}
+
 @keyframes autoRun{
-  from{
+  from {
       left: 100%;
-  }to{
+  }
+  to {
       left: calc(var(--width) * -1);
   }
 }
-.slider:hover .item{
+
+.slider:hover .item {
   animation-play-state: paused!important;
   filter: grayscale(1);
 }
-.slider .item:hover{
+
+.slider .item:hover {
   filter: grayscale(0);
 }
-.slider[reverse="true"] .item{
+
+.slider[reverse="true"] .item {
   animation: reversePlay 10s linear infinite;
 }
-@keyframes reversePlay{
-  from{
+
+@keyframes reversePlay {
+  from {
       left: calc(var(--width) * -1);
-  }to{
+  }
+  to {
       left: 100%;
   }
 }

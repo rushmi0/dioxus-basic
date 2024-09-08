@@ -16,7 +16,7 @@ pub fn SlideShow() -> Element {
 
                 div { class: "list",
 
-                    div { class: "item hover:-translate-y-2 card",
+                    div { class: "item hover:translate-y-5 card",
                         style: "--position: 1",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
@@ -29,7 +29,7 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item hover:-translate-y-2 card",
+                    div { class: "item hover:translate-y-5 card",
                         style: "--position: 2",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
@@ -42,7 +42,7 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item hover:-translate-y-2 card",
+                    div { class: "item hover:translate-y-5 card",
                         style: "--position: 3",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
@@ -55,7 +55,7 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item hover:-translate-y-2 card",
+                    div { class: "item hover:translate-y-5 card",
                         style: "--position: 4",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
@@ -68,7 +68,7 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item hover:-translate-y-2 card",
+                    div { class: "item hover:translate-y-5 card",
                         style: "--position: 5",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
@@ -81,7 +81,7 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item hover:-translate-y-2 card",
+                    div { class: "item hover:translate-y-5 card",
                         style: "--position: 6",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
