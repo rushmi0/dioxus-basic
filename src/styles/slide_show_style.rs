@@ -202,8 +202,6 @@ main{
 }
 
 
-
-
 #links {
     width: 400px;
     text-align: left;

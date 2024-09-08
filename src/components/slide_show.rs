@@ -27,7 +27,6 @@ pub fn SlideShow() -> Element {
                                 }
                             }
                         }
-
                     }
 
                     div { class: "item",
@@ -69,8 +68,6 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-
-
                     div { class: "item",
                         style: "--position: 5",
                         div { class: "bg-slideshow",
@@ -84,10 +81,8 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-
                     div { class: "item",
                         style: "--position: 6",
-
                         div { class: "bg-slideshow",
                             div { id: "links", class: "flex justify-center items-center",
                                 a {
@@ -97,9 +92,7 @@ pub fn SlideShow() -> Element {
                                 }
                             }
                         }
-
                     }
-
 
                 }
 

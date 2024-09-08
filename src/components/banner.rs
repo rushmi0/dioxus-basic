@@ -46,12 +46,12 @@ pub fn Banner() -> Element {
                             }
                         }
 
-                        div {
+                         div {
                             a {
-                                href: "https://dioxuslabs.com/learn/0.5/getting_started",
+                                href: "https://discord.gg/XgGxMSkvUM",
                                 target: "_blank",
                                 class: "hover:-translate-y-2 w-[150px] h-[50px] bg-[#E96020] text-white rounded-md flex items-center justify-center",
-                                "Quickstart"
+                                "Join Discord"
                             }
                         }
 
