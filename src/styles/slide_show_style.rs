@@ -236,7 +236,6 @@ main {
   border-color: #E96020;
   -webkit-box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
   box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
-  @apply mt-20;
   transform: scale(1.05);
 }
 
