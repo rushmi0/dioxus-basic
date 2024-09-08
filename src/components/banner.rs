@@ -1,6 +1,7 @@
 #![allow(non_snake_case)]
 
 use dioxus::prelude::*;
+use dioxus_logger::tracing::{info};
 use crate::styles::banner_style::ANIM;
 
 const IMG_BANNER: &str = manganis::mg!(file("src/assets/multiplatform-dark.svg"));
@@ -44,6 +45,7 @@ pub fn Banner() -> Element {
                                 href: "https://dioxuslabs.com/learn/0.5/reference",
                                 target: "_blank",
                                 class: "w-[150px] h-[50px] bg-[#00A8D6] text-white rounded-md flex items-center justify-center",
+                                onclick: |_| info!("link clicked"),
                                 "Read the docs"
                             }
                         }
@@ -53,13 +55,13 @@ pub fn Banner() -> Element {
                                 href: "https://discord.gg/XgGxMSkvUM",
                                 target: "_blank",
                                 class: "w-[150px] h-[50px] bg-[#E96020] text-white rounded-md flex items-center justify-center",
+                                onclick: |_| info!("link clicked"),
                                 "Join Discord"
                             }
                         }
-
                     }
-                }
 
+                }
             }
         }
     }
