@@ -3,14 +3,10 @@ pub const ANIM: &str = r#"
   @apply hover:scale-[1.05]
 }
 
-main {
-  width: min(1200px, 90vw);
-  margin: auto;
-}
 
 .slider {
   width: 100%;
-  height: 90px;
+  height: 80px;
   mask-image: linear-gradient(
       to right,
       transparent,
@@ -31,17 +27,13 @@ main {
   height: var(--height);
   position: absolute;
   left: 100%;
-  animation: autoRun 18s linear infinite;
+  animation: autoRun 19s linear infinite;
   transition: filter 0.5s;
-  animation-delay: calc( (18s / var(--quantity)) * (var(--position) - 1) - 10s)!important;
+  animation-delay: calc( (19s / var(--quantity)) * (var(--position) - 1) - 10s)!important;
 }
 
 .slider .list .item img {
   width: 100%;
-}
-
-.list {
-    @apply mt-3
 }
 
 @keyframes autoRun{
