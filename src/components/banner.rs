@@ -28,7 +28,9 @@ pub fn Banner() -> Element {
                         span { class: "text-[#E96020] ml-2", " v0.5" }
                     }
 
-                    h2 { class: "topic mt-3 text-[#2D323B] lg:text-[96px] font-bold text-[48px] sm:text-[48px]", "Webassembly" }
+                    h2 { class: "topic mt-3 text-[#2D323B] lg:text-[96px] font-bold text-[48px] sm:text-[48px]",
+                        "Webassembly"
+                    }
 
                     p { class: "des mt-6 lg:text-[24px] text-[21px] sm:text-[21px] text-balance leading-normal",
                         "Dioxus is a Rust library for building apps that run on desktop, web, mobile, and more."
