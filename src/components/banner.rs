@@ -2,14 +2,14 @@
 
 use dioxus::prelude::*;
 use dioxus_logger::tracing::{info};
-use crate::styles::banner_style::ANIM;
+use crate::styles::banner_style::CSS;
 
 const IMG_BANNER: &str = manganis::mg!(file("src/assets/multiplatform-dark.svg"));
 
 #[component]
 pub fn Banner() -> Element {
     rsx! {
-        style { {ANIM} }
+        style { {CSS} }
         div { class: "container mx-auto",
 
             div { class: "flex justify-between items-center pt-[5%] col-lg-12 col-md-12 col-sm-12 flex-col-reverse lg:flex-row-reverse xl:flex-row grid lg:grid-rows-none lg:grid-cols-4 grid-rows-4",

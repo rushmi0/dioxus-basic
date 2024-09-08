@@ -1,4 +1,4 @@
-pub const ANIM: &str = r#"
+pub const CSS: &str = r#"
 .hoverScale {
   @apply hover:scale-[1.05]
 }

@@ -1,4 +1,4 @@
-pub const ANIM: &str = r#"
+pub const CSS: &str = r#"
 @keyframes slideIn {
     from {
         transform: translateY(-30px);

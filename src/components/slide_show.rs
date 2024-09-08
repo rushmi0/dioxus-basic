@@ -1,12 +1,12 @@
 #![allow(non_snake_case)]
 
 use dioxus::prelude::*;
-use crate::styles::slide_show_style::ANIM;
+use crate::styles::slide_show_style::CSS;
 
 #[component]
 pub fn SlideShow() -> Element {
     rsx! {
-        style { {ANIM} }
+        style { {CSS} }
         div { class: "mt-10",
 
             div { class: "slider",
