@@ -81,7 +81,6 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-
                 }
             }
         }
