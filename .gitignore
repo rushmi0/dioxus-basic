@@ -4,9 +4,8 @@
 /dist/
 /static/
 /.dioxus/
-
-/.idea
-node_modules
+/.idea/
+/node_modules/
 
 # this file will generate by tailwind:
 /public/tailwind.css
