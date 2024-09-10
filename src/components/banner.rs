@@ -38,9 +38,9 @@ pub fn Banner() -> Element {
                     }
 
                     // Buttons to open links in a new tab
-                    div { class: "seeMore w-full flex justify-center lg:justify-start mt-5",
+                    div { class: "detail w-full flex justify-center lg:justify-start mt-5",
 
-                        div { class: "mr-4",
+                        div { class: "mr-4 detail-btn",
                             a {
                                 href: "https://dioxuslabs.com/learn/0.5/reference",
                                 target: "_blank",
@@ -50,7 +50,7 @@ pub fn Banner() -> Element {
                             }
                         }
 
-                         div {
+                         div { class: "detail-btn",
                             a {
                                 href: "https://discord.gg/XgGxMSkvUM",
                                 target: "_blank",

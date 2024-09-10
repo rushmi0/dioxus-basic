@@ -222,21 +222,19 @@ main {
   border-radius: 20px;
   background: #f5f5f5;
   border: 3px solid #c3c6ce;
-  transition: 0.5s ease-out;
 }
 
 .card a {
   margin-top: 20px;
   margin: 10px;
   text-align: left;
-  font-size: x-large;
+  font-size: x-large;0
 }
 
 .card:hover {
   border-color: #E96020;
   -webkit-box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
   box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
-  transform: scale(1.05);
 }
 
 "#;

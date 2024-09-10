@@ -1,4 +1,5 @@
 pub const CSS: &str = r#"
+
 @keyframes slideIn {
     from {
         transform: translateY(-30px);
@@ -15,7 +16,7 @@ pub const CSS: &str = r#"
 .title,
 .topic,
 .des,
-.seeMore {
+.detail-btn {
     opacity: 0;
     animation: slideIn 0.5s ease-in-out forwards;
 }
@@ -32,7 +33,17 @@ pub const CSS: &str = r#"
     animation-delay: 1.4s;
 }
 
-.seeMore {
-    animation-delay: 1.6s;
+.detail-btn {
+    transition: 0.2s ease-out;
 }
+
+.detail-btn:nth-child(1) {
+    animation-delay: 1.8s;
+     transition: 0.5s ease-out;
+}
+
+.detail-btn:nth-child(2) {
+    animation-delay: 2s;
+}
+
 "#;

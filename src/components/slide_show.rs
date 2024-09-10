@@ -16,7 +16,7 @@ pub fn SlideShow() -> Element {
 
                 div { class: "list",
 
-                    div { class: "item card",
+                    div { class: "item card hover:-translate-y-2",
                         style: "--position: 1",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
@@ -29,7 +29,7 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item card",
+                    div { class: "item card hover:-translate-y-2",
                         style: "--position: 2",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
@@ -42,7 +42,7 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item card",
+                    div { class: "item card hover:-translate-y-2",
                         style: "--position: 3",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
@@ -55,7 +55,7 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item card",
+                    div { class: "item card hover:-translate-y-2",
                         style: "--position: 4",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
@@ -68,7 +68,7 @@ pub fn SlideShow() -> Element {
                         }
                     }
 
-                    div { class: "item card",
+                    div { class: "item card hover:-translate-y-2",
                         style: "--position: 5",
                         div { class: "bg-slideshow",
                             div {  class: "flex justify-center items-center",
