@@ -5,7 +5,7 @@
 /static/
 /.dioxus/
 
-.idea
+/.idea
 node_modules
 
 # this file will generate by tailwind:
